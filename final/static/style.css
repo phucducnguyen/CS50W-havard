@@ -1,0 +1,76 @@
+body {
+	  font-family: "Verdana", Verdana, sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 10% 90%;
+}
+
+#chartdiv {
+	height: 65vh;
+	width: 99vw;
+}
+
+#grid-container {
+	height: 5vh;
+	width: 99vw;	
+}
+
+#my_dataviz	 {
+	height: 25vh;
+	width: 99vw;
+}
+
+#title {
+	margin-top: 0;
+
+}
+
+.overlay {
+    fill: none;
+    pointer-events: all;
+}
+
+.focus circle {
+    fill: steelblue;
+}
+
+.focus text {
+    font-size: 14px;
+}
+
+.tooltip {
+    fill: white;
+    stroke: #000;
+}
+
+.tooltip-date, .tooltip-likes {
+    font-weight: bold;
+}
+
+.styled-select {
+   background: url(http://i62.tinypic.com/15xvbd5.png) no-repeat 96% 0;
+   height: 29px;
+   overflow: hidden;
+   width: 240px;
+}
+
+.styled-select select {
+   background: transparent;
+   text-align:center;
+   border: none;
+   font-size: 14px;
+   height: 29px;
+   padding: 5px; /* If you add too much padding here, the options won't show in IE */
+   width: 268px;
+}
+
+.rounded {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
+
+.black   { background-color: #000; }
+.black select   { color: #fff; }

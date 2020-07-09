@@ -1,0 +1,27 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Pollution app
+{% endblock %}
+
+{% block body %}
+
+<!-- HTML -->
+<div id="wrapper">
+	<div id="chartdiv"></div>
+	<script src="{{ url_for('static', filename='myscript.js') }}"></script>
+	<script src="{{ url_for('static', filename='pollplot.js') }}"></script>
+	<script src="{{ url_for('static', filename='capitals.js') }}"></script>
+	<div id="pollplot">
+		<div class="grid-container">
+			<div id="buttondiv" class="grid-item"></div>
+  			<div class="grid-item" id="cityname"></div>
+ 		</div>
+		
+		<div id="my_dataviz"></div>
+	</div>
+</div>
+{% endblock %}
+
+
+ <!-- styled-select black rounded"><select id="selectButton" onchange="plotWeatherData(data, this.value)"></select> -->
